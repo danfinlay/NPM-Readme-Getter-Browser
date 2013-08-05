@@ -1,0 +1,31 @@
+{
+  "name": "readme-getter",
+  "version": "0.0.2",
+  "description": "A module for fetching README html from npm modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/flyswatter/NPM-Readme-Getter.git",
+  "keywords": [
+    "npm",
+    "readme",
+    "browserify"
+  ],
+  "author": "Dan Finlay",
+  "license": "BSD",
+  "dependencies": {
+    "browser-request": "~0.2.1",
+    "cheerio": "~0.12.1"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "firefox": [ 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1 ],
+      "opera": [ 12 ]
+    }
+  }
+}
